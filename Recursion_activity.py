@@ -1,3 +1,4 @@
+#Oliver Kent M. Ortego BSIT-2B
 def sum_array(arr):
    
     if len(arr) == 0:
@@ -5,7 +6,7 @@ def sum_array(arr):
   
     return arr[0] + sum_array(arr[1:])
 
-# Tests
+
 print("--- Sum Tests ---")
 print(sum_array([]))                   
 print(sum_array([5]))                 
