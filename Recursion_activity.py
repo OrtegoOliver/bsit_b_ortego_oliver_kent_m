@@ -1,4 +1,7 @@
 #Oliver Kent M. Ortego BSIT-2B
+
+##Sum the Array
+
 def sum_array(arr):
    
     if len(arr) == 0:
@@ -13,6 +16,7 @@ print(sum_array([5]))
 print(sum_array([1, 2, 3, 4, 5]))      
 print(sum_array([10, -5, 3, -2]))  
 
+#Find the Largest Number
 def find_max(arr):
    
     if len(arr) == 0:
